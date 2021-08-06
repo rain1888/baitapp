@@ -1,0 +1,291 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	background: white;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#warper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+/*	background: grey;*/
+}
+.topbar{
+	width: 100%;
+	height: 50px;
+	background: #151515;
+	line-height: 45px;
+}
+.topbar a{
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.btn{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+/*	background: #B93032*/
+}
+.signup-btn {
+	background: #5F5F5F;
+	padding: 8px 28px;
+	color: white;
+	text-decoration: none;
+}
+.login-btn {
+	padding: 6px 30px;
+	color: #A8A8A8;
+	text-decoration: none;
+	border: 2px solid #A8A8A8;
+}
+.signup-btn:hover{
+	background: white;
+	color: black;
+}
+.login-btn:hover{
+	color: white;
+	border: 2px solid #FFFFFF;
+}
+.header-main{
+	width: 100%;
+	height: 90px;
+/*	background: #168BF8;*/
+}
+.logo{
+	width: 21%;
+	height: 90px;
+/*	background: #000411;*/
+	float: left;
+	overflow: hidden;
+}
+.logo img{
+	width: 230px;
+	margin-top: 12px;
+}
+.banner{
+	width: 79%;
+	background: #04A5E5;
+	float: right;
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	overflow: hidden;
+/*	border: 1px black #000000;*/
+}
+.banner h1{
+	font-size: 60px;
+	color: white;
+}
+.header-bottom{
+	width: 100%;
+	height: 30px;
+/*	background: #24F483;*/
+}
+.menu{
+	width: calc(100% - 0px);
+	height: 50px;
+/*	border: 2px solid black;*/
+	line-height: 50px;
+	background: #000000;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 30px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px 16px 30px;
+	background: #000000;
+}
+.menu ul li a:hover{
+	color:black;
+	background: white;
+}
+.main{
+	width: 100%;
+/*	background: #575757;*/
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.wireless-promo-holder{
+	margin-bottom: 10px;
+	width: 100%;
+}
+.wireless-promo-left{
+	text-align: center;
+	width: 50%;
+	height: 300px;
+	padding-top: 100px;
+	float: left;
+	background: #6415E4
+}
+.wireless-promo-right{
+	text-align: center;
+	width: 50%;
+	height: 400px;
+/*	background: #E3C528;*/
+	float: right;
+	overflow: hidden;
+}
+.wireless-promo-right img{
+	width: 100%;
+}
+.wireless-promo-left h1{
+	color: white;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+.wireless-promo-left p{
+	color: white;
+}
+.wireless-promo-left span{
+	color: white;
+}
+.shop-btn-box{
+	margin-top: 40px;
+}
+.shop-btn{
+	background: #04A5E5;
+	text-decoration: none;
+	color: white;
+	padding: 20px 40px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+.shop-btn:hover{
+	background: #0087BD;
+}
+.About{
+	width: 1200px;
+	overflow: hidden;
+	margin-top: 50px;
+	background: white;
+}
+.about-banner-header{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/pexels-fox-3829227.jpg");
+	background-size: cover;
+	text-align: center;
+	color: white;
+	line-height: 500px;
+	font-size: 60px;
+	font-weight: 600;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.about-banner-story{
+	background: white;
+	color: black;
+	text-align: center;
+	padding-top: 80px;
+	margin: 0 230px 100px 230px;
+}
+.about-banner-story h1{
+	margin-bottom: 25px;
+	font-weight: 700px;
+}
+.about-banner-story p{
+	margin-bottom: 25px;
+	font-size: 17px
+}
+.brands-logo{
+	text-align: center;
+}
+.friendly-enviroment{
+	width: 100%;
+	height: 726px;
+	overflow: hidden;
+}
+.friendly-enviroment img{
+	width: 100%;
+}
+.professional{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	padding-top: 80px;
+}
+.professional h1{
+	margin-bottom: 10px;
+}
+.professional a{
+	text-decoration: none;
+	color: black;
+}
+.professional a:hover{
+	text-decoration: underline;
+}
+.professional img{
+	margin: 5px;
+}
+.people{
+	margin-top: 40px;
+}
+.names{
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+}
+.names span{
+	font-weight: 500;
+	text-align: center;
+	margin: 0px 100px 0px 100px;
+}
+.profession span{
+	margin: 0px 50px 0px 100px;
+	text-align: center;
+	font-size: 15px;
+}
+.footer{
+	width: 100%;
+	height: 110px;
+	background: #2A2A2A;
+	color: white;
+	text-align: center;
+ 	padding-top: 20px;
+}
+.footer h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.footer p{
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+}
+.copyright{
+	width: 100%;
+	background: #2A2A2A;
+	color: white;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.copyright p{
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 5px;
+}
